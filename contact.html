@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    <div class="header">
+        
+        <img class="logo" src="logo.jpg" alt="">
+        
+     
+                    <button id="menu"
+      onclick="show()">&#8801</button>
+            
+       
+    </div>
+    
+   
+        
+        
+      <div id="sidebar"
+      style="
+width: 70%;
+    height: 150vh;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    background: blue ;
+    z-index:;
+    display:none;
+    transition:1s;
+    ">
+ 
+             <button id="menu2" onclick="hide()">&#215</button> 
+      
+      <div class="link"><i><b>
+ <li><a href="home.html">HOME</a>
+ <li><a href="services.html">SERVICES</a>
+ <li><a href="#"><u>CONTACT US</u></a>
+ <li><a href=""> GO TO SHOP</a>
+      </div>
+      </div>
+    
+</body>
+
+<script>
+    
+    function show(){
+        document.getElementById("sidebar").style.display="block";
+    }
+    
+    function hide(){
+       document.getElementById("sidebar").style.display="none";
+    }
+</script>
+<style>
+    
+  #share,
+#like,
+#comment{
+    font-size:25px;
+    background:;
+    border:none;
+    margin-left: 50px;
+}
+#share,
+#like,{
+    width: 1000px;
+    height: 50px;
+}
+  
+    
+    
+</style>
+
+
+</html>
